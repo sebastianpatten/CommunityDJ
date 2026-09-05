@@ -10,6 +10,9 @@ changed at the decks, not which class moved.
 ### New
 - **One-command install.** `curl -fsSL https://raw.githubusercontent.com/freedomfirst26/Sholto/main/get-sholto.sh | bash` downloads the latest release, installs its tools, and launches it. Re-run to update.
 
+### Housekeeping
+- Added a user guide under docs/ covering every control on screen and on the DDJ-FLX4.
+
 ## v0.2.0
 
 ### New

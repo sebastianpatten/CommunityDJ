@@ -8,6 +8,8 @@ DJ software for mixing your own music — a free alternative to Rekordbox and Se
 
 ![Sholto — library on top, two decks below with section maps, live waveforms, and spinning discs](pictures/sholto-ui.png)
 
+Full guide: [docs/README.md](docs/README.md) — every button on screen and on the controller.
+
 ## What it does
 
 ### Your library
