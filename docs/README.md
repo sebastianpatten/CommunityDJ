@@ -67,6 +67,7 @@ Transport is controller-only: nothing on screen starts, stops, or jumps the musi
 | **↑ / ↓** (tuner open) | BPM ±0.1 — hold **Shift** for ±1 |
 | **← / →** (tuner open) | Slide the grid ±10 ms — hold **Shift** for ±1 beat |
 | **Esc** | Close the tuner or a menu; otherwise clear a crate or tag filter |
+| **F11** | Toggle fullscreen |
 
 ## Themes
 

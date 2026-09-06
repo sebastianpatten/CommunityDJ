@@ -69,6 +69,7 @@ Adding support for another controller is straightforward — Sholto keeps each d
 - **G** — open the beatgrid / tempo tuner on the playing deck; then **↑ / ↓** change the tempo and **← / →** nudge the grid.
 - **M** — drop a marker on the playing deck.
 - **Esc** — close a menu, or clear a tag/crate filter to go back to **All Tracks**.
+- **F11** — toggle fullscreen.
 
 ## Install and run
 

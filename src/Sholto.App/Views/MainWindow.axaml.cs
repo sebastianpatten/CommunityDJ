@@ -126,6 +126,13 @@ public partial class MainWindow : Window
 
     private void OnGlobalKeyDown(object? sender, KeyEventArgs e)
     {
+        if (e.Key == Key.F11)
+        {
+            WindowState = WindowState == WindowState.FullScreen ? WindowState.Normal : WindowState.FullScreen;
+            e.Handled = true;
+            return;
+        }
+
         if (DataContext is not MainViewModel vm) return;
         bool shift = (e.KeyModifiers & KeyModifiers.Shift) != 0;
 
