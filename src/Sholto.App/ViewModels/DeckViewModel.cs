@@ -1138,6 +1138,14 @@ public sealed class DeckViewModel : INotifyPropertyChanged
 
     public void SyncPlayPosition()
     {
+        // Transport state is owned by the audio Deck and can change without
+        // going through this view model (MainViewModel.OnPlayPressed calls
+        // Player.TogglePlay directly, the vinyl brake pauses from the
+        // orchestrator, and a track simply ends). Follow the player here so
+        // PlayState / the BEAT SYNC LED / the end-flash track reality. Skipped
+        // mid-scratch: the Deck force-starts a paused track while the platter
+        // is held and restores the real state on release.
+        if (!IsScratching) IsPlaying = _player.IsPlaying;
         PlayPosition = _player.PlayPosition;
     }
 
